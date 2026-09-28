@@ -1,0 +1,4 @@
+Options -indexes
+#artinya jika ada user membuka folder app dan folder-folder 
+didalamnya selama didalam folder itu tidak ada file 
+index maka jangan ditampikan isi folder tsb.
