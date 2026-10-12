@@ -1,3 +1,4 @@
+<?php /** @var array $data */ ?>
 <div class="container mt-4">
     <div class="row">
         <div class="col-lg-6">
@@ -16,10 +17,12 @@
                 <?php foreach ($data['mhs'] as $mhs) : ?>
                     <li class="list-group-item">
                         <?php echo $mhs['nama']; ?>
-                        <a href="<?php echo BASEURL; ?>/mahasiswa/hapus/<?php echo $mhs['id']; ?>" class="badge badge-danger float-right ml-1" onclick="return confirm('Yakin?');">
+                        <a href="<?php echo BASEURL; ?>/mahasiswa/hapus/<?php echo $mhs['id']; ?>" 
+                        class="badge badge-danger float-right ml-1" onclick="return confirm('Yakin?');">
                             hapus
                         </a>
-                        <a href="<?php echo BASEURL; ?>/mahasiswa/detail/<?php echo $mhs['id']; ?>" class="badge badge-primary float-right ml-1">
+                        <a href="<?php echo BASEURL; ?>/mahasiswa/detail/<?php echo $mhs['id']; ?>" 
+                        class="badge badge-primary float-right ml-1">
                             detail
                         </a>
                     </li>

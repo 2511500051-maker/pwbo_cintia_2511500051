@@ -1,3 +1,4 @@
+<?php /** @var array $data */ ?>
 <div class="container">
     <h1 class="mt-4">About Me</h1>
     <img src="<?php echo BASEURL; ?>/img/bg2.png" width="200" class="rounded-circle shadow">
