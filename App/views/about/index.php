@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Halaman About</title>
-</head>
-<body>
-    <h1>About me</h1>
+<div class="container">
+    <h1 class="mt-4">About Me</h1>
+    <img src="<?php echo BASEURL; ?>/img/bg2.png" width="200" class="rounded-circle shadow">
+    <p>Halo, nama saya <?php echo $data['nama']; ?>, 
+    saya adalah seorang <?php echo $data['pekerjaan']; ?></p>
 
-    <?php
-    $nama = $data['nama'] ?? '';
-    $pekerjaan = $data['pekerjaan'] ?? '';
-    ?>
-
-    <p>
-        Hallo, nama saya <?php echo $nama; ?>,
-        saya adalah seorang <?php echo $pekerjaan; ?>
-    </p>
-</body>
-</html>
+</div>
